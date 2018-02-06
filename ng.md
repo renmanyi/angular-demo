@@ -16,6 +16,7 @@
 
 
 
+
 绑定$$haskKey:
 给每个item绑定唯一ID,当数组发生变化时，ID不变！
 <li ng-repeat="item in items track by $id(item)"></li>
